@@ -54,4 +54,32 @@ section{
     background-image: url(images/round.png);
     background-repeat: no-repeat;
     background-position: left;
+    background-size:100%;
+    
+}
+
+.ex{
+    margin-left: 20px;
+    font-size: 60px;
+}
+.float-container{
+    display: flex;
+    margin-top:80px ;
+    margin: 90px;
+}
+.float-child{
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 5px;
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 90px;
+    border-left: 7px solid rgb(186, 26, 52);
+}
+.float-child2{
+    width: 50%;
+    padding-right: -12px;
+    padding-left: 20px;
+    border-left: 7px solid palevioletred;
+    box-shadow: 10px 10px 40px gray;
+
 }
