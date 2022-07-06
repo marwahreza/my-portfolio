@@ -39,3 +39,19 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.pinky{
+    font-family: Libre Baskerville;
+    font-size: 90px;
+    color: rgb(236, 26, 106);
+}
+.font{
+    font-size: 25px;
+}
+.flex{
+    display: flex;
+}
+.experience-area{
+    background-image: url(images/round.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
