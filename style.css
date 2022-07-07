@@ -26,7 +26,10 @@ section{
     color: black;
     border-radius: 5px;
     font-weight: 700;
-
+    transition: all linear .5s;
+}
+.text-button:hover{
+    background: pink;
 }
 .top-banner{
 
@@ -66,6 +69,7 @@ section{
     display: flex;
     margin-top:80px ;
     margin: 90px;
+    transition: all linear .3s;
 }
 .float-child{
     width: 50%;
@@ -74,6 +78,7 @@ section{
     box-shadow: 10px 10px 40px gray;
     margin-right: 90px;
     border-left: 7px solid rgb(186, 26, 52);
+    transition: all linear .3s;
 }
 .float-child2{
     width: 50%;
@@ -81,5 +86,12 @@ section{
     padding-left: 20px;
     border-left: 7px solid palevioletred;
     box-shadow: 10px 10px 40px gray;
-
+    transition: all linear .3s;
 }
+.float-child:hover{
+    background: pink;
+}
+.float-child2:hover{
+    background: pink;
+}
+
